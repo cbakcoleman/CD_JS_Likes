@@ -1,0 +1,60 @@
+/*-----------------TOP-----------------*/
+.header{
+    height: 75px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.feed{
+    text-align: center;
+}
+/*-----------------MAIN-----------------*/
+.main-container{
+    display: flex;
+}
+/*-----------------LEFT-----------------*/
+.user{
+    display: flexbox;
+    width: 200px;
+    align-items: center;
+    justify-items: center;
+}
+.userphoto{
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid burlywood;
+}
+/*-----------------RIGHT-----------------*/
+.feedentry{
+    display: inline-block;
+    width: 500px;
+}
+.friend{
+    font-size: 20px;
+}
+/*-----------------ALL-----------------*/
+.box{
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid rebeccapurple;
+}
+.btn{
+    box-shadow: 2px 2px 2px black;
+    background-color: chartreuse;
+}
+.link{
+    text-decoration: blue underline;
+    color: blue;
+}
+.italic{
+    font-style: italic;
+}
+.col{
+    flex: 1;
+
+}
+.col-2{
+    flex: 2;
+}
